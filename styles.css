@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Hilmar&family=Lexend+Deca:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Hilmar';
+    src: url('hilmar-5.woff') format('woff');
+    /* You can include additional formats if needed */
+    font-weight: normal;
+    /* Specify font weight if known */
+    font-style: normal;
+    /* Specify font style if known */
+}
+
+
+.page-hero {
+    width: 1440px;
+    height: 560px;
+    padding: 170px 0 0 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('https://s3-alpha-sig.figma.com/img/a265/95d4/20c2fa3ce01fe3993c4dba94eda08d2a?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nZE6R2jzWF5td0tbPJgTNFIv5lr49JJzOsuDglYvseIjN3K-32NGSVtnRZAbq1dcYoIPrkdo2xaw~HQMVIJgwADwMKJY4x656TI0Y-T46Z9xQL-hwJmSl~2s2ymST75~Hu4fPE6eJNa~NrBLwVO3K37aI2cGC-D~e098J~3mHHMqgpRP9w4Mp9vNd18TN8WEiYkc~QuBRVF0ayE7aXvyu0PVCAr1n2Cg~LQElvDQUwaWv3Uq93YA1utGHsnhXrCZFvGBKLzIp6yqOSm6kl54-CoTptOYIjnIVzb4Ub6XvUirEDxzBMUkdE7W7LvGikkqp3RYDn8p-1sUcQJJL4fwEw__') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.page-title {
+    width: 1440px;
+    height: 64px;
+    padding: 0px 120px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-title-text {
+    width: 386px;
+    height: 64px;
+    font-family: 'Hilmar', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.menu {
+    width: 1200px;
+    height: 164px;
+    padding: 20px 0;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.top-menu-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.frame {
+    width: 1200px;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    width: 103px;
+    height: 28px;
+    padding: 0px 8px;
+    gap: 4px;
+    border-radius: 12px;
+    border: 2px solid #FACA22;
+    background-color: #163466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-button {
+    width: auto;
+    height: 21px;
+    padding: 0px 4px;
+    gap: 4px;
+    border-radius: 12px;
+    background-color: #FACA22;
+    color: #163466;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.filter-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #FAFAFA;
+    margin-left: 1px;
+}
+
+.logo {
+    width: 68.79px;
+    height: 60px;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-links {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link {
+    width: auto;
+    height: 36px;
+    padding: 4px 0;
+    gap: 4px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.menu-link-button {
+    width: auto;
+    height: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #262B36;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.badge {
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 100px;
+    background: #163466;
+}
+
+.breadcrumbs {
+    width: 1440px;
+    /* Fixed width */
+    height: auto;
+    /* Hug height */
+    padding: 20px 120px;
+    /* Padding */
+    gap: 12px;
+    /* Gap */
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.breadcrumb-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px 4px 0;
+    /* Adjusted right padding */
+    gap: 12px;
+    border-radius: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #262B36;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.breadcrumb-button .right-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-button-1 {
+    width: 47px;
+    height: 28px;
+}
+
+.breadcrumb-button-2 {
+    width: 110px;
+    height: 28px;
+}
